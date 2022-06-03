@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BORRADOR 1RA ENTREGA</title>
+    <title>Document</title>
       <!--FAVICON-->
     
     
@@ -13,112 +13,105 @@
     
     <!--LINK CSS-->
 
-     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="css/style.css">
+     
+     <!--LINK BOOTSTRAP-->
+     
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 </head>
-
-  <!--Esqueleto de mi sitio web-->
 <body>
-           <!--HEADER-->
-    <header class="menu-container">
-
-       
-            
-            <nav >
-                <a href=""><img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF"></a>
-                <h1>
+  <header>
+    
+   
+             <div class=" d-flex bg-primary row">
+                <a href="index.html" class="col-8 w-50">
+                    <img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF">
+                </a>
+        
+                <h1 class="mt-5 mr-5 col">
                     REPUESTOS DEL AUTOMOTOR
                 </h1>
-                 
-                <ul class="menu">
-                    <li> 
-                        <a href="index.html">INICIO</a>
-                    </li>
-                    <li>
-                         <a href="nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li> 
-                        <a href="sucursales.html">SUCURSALES</a>
-                    <li>
-                    <li>
-                         <a href="productos.html">PRODUCTOS </a>
-                    </li>
-                    <li> 
-                        <a href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-
-                
-                <a href="">Ingresar</a>
-
-
-               
-
-            </nav>
-
-
-
-    </header>
-
-     <!--FIN HEADER-->
-
-    <!--CONTENIDO MAIN-->
-
-    <main>
-        <!-- SECTION 1-->
-        <section class="seccion-gris">
-            <!--DIV CONTENEDOR-->
-            <div>
-                <h2>
-                    NO SOMOS UN LOCAL DE REPUESTOS, SOMOS UNA CASA DE REPUESTOS.
-                    SOMOS TU CASA DE REPUESTOS.          
-
-                </h2>
-                
-               
-                <P>
-                        Frenos y embragues. Distribucion.
-                        Tren delantero. Accesorios.
-                </P>
-                
-                <img src="./imagenes/iconos/marcas-de-autos.ico" alt="Icono provisorio de marcas de autos">
-
-
-
-            </div>
-
-        </section >
-
-        <section class="seccion-prod" >
-            <p>
-                Distribucion. Frenos y embragues. Tren delantero
-                
-            </p>  
-            <div >
-                  <img class="foto-prod dist" src="imagenes/iconos/tipos-distribucion-motor-1.jpg" alt="fotoderep-dist">
-                  <img class="foto-prod embr" src="imagenes/iconos/repuesto_01.jpg" alt="fotode-fren-embr">
-                  <img class="foto-prod tren" src="imagenes/iconos/images.jpg" alt="fotoresp-tren-del">
-                  <p class="texto-dist">
-                      Distribucion del motor
-                  </p>
-                  <p>
-                      Frenos y embragues
-                  </p>
-                  <p>
-                      Tren delantero
-                  </p>
-            
-            </div>
     
-          </section>
+             </div>
 
-        
+   
+    
+        <nav class="navbar navbar-expand-lg bg-light">      
+            <div class="container-fluid  ">
+                
+              <a class="navbar-brand" href="index.html">INICIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="page" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sucursales.html">SUCURSALES</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="">
+                      PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                          <a class="dropdown-item" href="#">Action</a>
+                        </li>
+                      <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                      <li>
+                          <hr class="dropdown-divider"></li>
+                      <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link ">CONTACTO</a>
+                    </li>
+                    </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
-    </main>
+    
 
+  </header>
+       
 
-     
-    <!--Ultima seccion-->
+  <main>
+      <section class="bg-dark row ">
+        <div id="carouselExampleControls " class="carousel slide  " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active d-flex justify-content-center ">
+                <img src="imagenes/iconos/tipos-distribucion-motor-1.jpg" class="d-block h-50 w-50" alt="foto de distribucion">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/iconos/maxresdefault.jpg" class="d-block  w-50" alt="foto frenos y embragues">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/iconos/images.jpg" class="d-block w-50" alt="foto de tren delantero">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+  </main>
+     <!--Ultima seccion-->
  
     <section class="seccion-darkblue">
 
@@ -144,13 +137,13 @@
     </section>
 
      <!--FOOTER--> 
-     <footer id="contenedor-footer-blue">
+  <footer id="contenedor-footer-blue" class="container">
         <img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF">
-        <div class="botones-redes">
+        <div class="botones-redes row d-flex w-75 h-50">
 
 
            
-                <button > 
+                <button class="col-4" > 
                     <a href="https://www.facebook.com/search/pages/?q=hf%20repuestos">
 
                         <img src="./imagenes/iconos/fb.png" alt="icono fb">
@@ -158,7 +151,7 @@
                     </a>
                 </button>
              
-                <button>
+                <button class="col-4">
                     <a href="https://www.instagram.com/hf_respuestos/">
 
                         <img src="./imagenes/iconos/ig.jpg" alt="icono de ig">
@@ -167,7 +160,7 @@
 
                 </button>
                 
-                <button>
+                <button class="col-4">
                     <a href="https://web.whatsapp.com/">
                     
                         <img src="/imagenes/iconos/wsp.png" alt="icono de wsp">
@@ -182,5 +175,14 @@
      </footer>     
      
      <!--FIN FOOTER-->
+
+     <!--LINK SCRIPT-->
+
+   
+    
+
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+
+
 </body>
 </html>

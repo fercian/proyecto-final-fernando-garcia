@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BORRADOR 1RA ENTREGA</title>
+    <title>Document</title>
       <!--FAVICON-->
     
     
@@ -13,52 +13,78 @@
     
     <!--LINK CSS-->
 
-     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="css/style.css">
+     
+     <!--LINK BOOTSTRAP-->
+     
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 </head>
-
-  <!--Esqueleto de mi sitio web-->
 <body>
-           <!--HEADER-->
-    <header class="menu-container">
-
-       
-            
-            <nav >
-                <a href=""><img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF"></a>
-                <h1>
+     <!--HEADER-->
+  <header>
+    
+   
+             <div class=" d-flex bg-primary row">
+                <a href="index.html" class="col-8 w-50">
+                    <img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF">
+                </a>
+        
+                <h1 class="mt-5 mr-5 col">
                     REPUESTOS DEL AUTOMOTOR
                 </h1>
-                 
-                <ul class="menu">
-                    <li> 
-                        <a href="index.html">INICIO</a>
+    
+             </div>
+
+   
+    
+        <nav class="navbar navbar-expand-lg bg-light">      
+            <div class="container-fluid  ">
+                
+              <a class="navbar-brand" href="index.html">INICIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="page" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sucursales.html">SUCURSALES</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="">
+                      PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                          <a class="dropdown-item" href="#">Action</a>
+                        </li>
+                      <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                      <li>
+                          <hr class="dropdown-divider"></li>
+                      <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
                     </li>
-                    <li>
-                         <a href="nosotros.html">NOSOTROS</a>
+                     <li class="nav-item">
+                        <a class="nav-link ">CONTACTO</a>
                     </li>
-                    <li> 
-                        <a href="sucursales.html">SUCURSALES</a>
-                    <li>
-                    <li>
-                         <a href="productos.html">PRODUCTOS</a>
-                    </li>
-                    <li> 
-                        <a href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
+                    </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
-                <a href="">Ingresar</a>
+    
 
-
-               
-
-            </nav>
-
-
-
-    </header>
-
+  </header>
      <!--FIN HEADER-->
 
      <section >
