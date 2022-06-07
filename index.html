@@ -20,7 +20,7 @@
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <header>
+  <header class="container-header">
     
    
              <div class=" d-flex bg-primary row">
@@ -28,15 +28,13 @@
                     <img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF">
                 </a>
         
-                <h1 class="mt-5 mr-5 col">
+                <h1 class="mt-5 mr-5 col ">
                     REPUESTOS DEL AUTOMOTOR
                 </h1>
     
              </div>
 
-   
-    
-        <nav class="navbar navbar-expand-lg bg-light">      
+     <nav class="navbar navbar-expand-lg bg-light">      
             <div class="container-fluid  ">
                 
               <a class="navbar-brand" href="index.html">INICIO</a>
@@ -49,32 +47,22 @@
                     <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="sucursales.html">SUCURSALES</a>
+                    <a class="nav-link active" aria-current="page" href="sucursales.html">SUCURSALES</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="productos.html" >
                       PRODUCTOS
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li>
-                          <a class="dropdown-item" href="#">Action</a>
-                        </li>
-                      <li>
-                          <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                      <li>
-                          <hr class="dropdown-divider"></li>
-                      <li>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
-                    </ul>
+
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link ">CONTACTO</a>
+                        <a class="nav-link active "aria-current="page" href="contacto.html">CONTACTO
+
+                        </a>
                     </li>
                     </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
                   <button class="btn btn-outline-success" type="submit">BUSCAR</button>
                 </form>
               </div>
@@ -85,10 +73,10 @@
 
   </header>
        
-
-  <main>
-      <section class="bg-dark row ">
-        <div id="carouselExampleControls " class="carousel slide  " data-bs-ride="carousel">
+  
+    <main class="">
+        <section class="bg-dark ">
+          <div id="carouselExampleControls " class="carousel slide  " data-bs-ride="carousel">
             <div class="carousel-inner ">
               <div class="carousel-item active d-flex justify-content-center ">
                 <img src="imagenes/iconos/tipos-distribucion-motor-1.jpg" class="d-block h-50 w-50" alt="foto de distribucion">
@@ -100,7 +88,7 @@
                 <img src="imagenes/iconos/images.jpg" class="d-block w-50" alt="foto de tren delantero">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
@@ -110,10 +98,10 @@
             </button>
           </div>
       </section>
-  </main>
-     <!--Ultima seccion-->
+
+                    <!--Ultima seccion-->
  
-    <section class="seccion-darkblue">
+       <section class="seccion-darkblue ">
 
         <h2 class="sabias-q">
             SABIAS QUE?
@@ -130,61 +118,26 @@
                <img class="descuentos veinte" src="https://e7.pngegg.com/pngimages/471/362/png-clipart-green-20-canon-eos-5d-mark-iv-digital-slr-digital-graphy-single-lens-reflex-camera-20-off-sale-label-leaf-text.png" alt="Imagen de 20%">
                <img class="descuentos treinta" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tm82o6xFmoWyjKAtvqLBiPM7VJYtRklZ1w&usqp=CAU" alt="Imagen de 30%">
             </div>
+        </section>
+    </main>
 
 
-
-
-    </section>
 
      <!--FOOTER--> 
-  <footer id="contenedor-footer-blue" class="container">
-        <img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF">
-        <div class="botones-redes row d-flex w-75 h-50">
-
-
-                <button class="col-4" > 
-                    <a href="https://www.facebook.com/search/pages/?q=hf%20repuestos">
-
-                        <img src="./imagenes/iconos/fb.png" alt="icono fb">
-                
-                    </a>
-                </button>
-             
-                <button class="col-4">
-                    <a href="https://www.instagram.com/hf_respuestos/">
-
-                        <img src="./imagenes/iconos/ig.jpg" alt="icono de ig">
-                    </a>
-
-
-                </button>
-                
-                <button class="col-4">
-                    <a href="https://web.whatsapp.com/">
-                    
-                        <img src="/imagenes/iconos/wsp.png" alt="icono de wsp">
-                        
-                    </a>  
-
-                </button>
-            
-            </div>
-      
-
-     </footer>    
+ 
      
-     <footer>
-      <div class="card" style="width: 18rem;">
+     <footer class="container-footer bg-dark">
+      <div class="card" style="width: 16rem;">
         <img src="./imagenes/iconos/LOGO-HF.ico" class="card-img-top" alt="logo footer hf">
         <div class="card-body">
-          <h5 class="card-title">contacto</h5>
-          <div class="d-flex-center>
+          <h5 class="card-title">contacto (011-4666-3940) </h5>
+          <div class="">
 
 
             <button class="" > 
                 <a href="https://www.facebook.com/search/pages/?q=hf%20repuestos">
 
-                    <img src="./imagenes/iconos/fb.png" alt="icono fb">
+                  <img src="./imagenes/iconos/fb (1).ico" alt="icono fb" width="40" height="40" >
             
                 </a>
             </button>
@@ -192,7 +145,7 @@
             <button class="">
                 <a href="https://www.instagram.com/hf_respuestos/">
 
-                    <img src="./imagenes/iconos/ig.jpg" alt="icono de ig">
+                    <img src="./imagenes/iconos/ig.jpg" alt="icono de ig" width="40" height="40" >
                 </a>
 
 
@@ -201,14 +154,14 @@
             <button class="">
                 <a href="https://web.whatsapp.com/">
                 
-                    <img src="/imagenes/iconos/wsp.png" alt="icono de wsp">
+                    <img src="/imagenes/iconos/wsp.png" alt="icono de wsp" width="40" height="40" >
                     
                 </a>  
 
             </button>
         
-        </div>
-          <a href="https://web.whatsapp.com/" class="btn btn-primary">abrir whatsapp</a>
+        <div class="mt-3">
+          <a href="https://web.whatsapp.com/" class="btn btn-primary">Enviar mail</a>
         </div>
       </div>
      </footer>
