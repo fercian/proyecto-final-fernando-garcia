@@ -1,0 +1,26 @@
+{
+  "name": "entrega-proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prueba": "echo \"Error: no se especificó ninguna prueba\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/style.css",
+    "watch -css": "nodemon -e scss -x \"npm ejecutar build-css\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fercian/proyecto-final-fernando-garcia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fercian/proyecto-final-fernando-garcia/issues"
+  },
+  "homepage": "https://github.com/fercian/proyecto-final-fernando-garcia#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
