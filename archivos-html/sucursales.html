@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BORRADOR 1RA ENTREGA</title>
+    <title> Archivo sucursales</title>
       <!--FAVICON-->
     
     
@@ -15,77 +15,144 @@
 
      <link rel="stylesheet" href="./css/style.css">
 
+     <!--LINK BOOTSTRAP-->
+     
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 </head>
-
-  <!--Esqueleto de mi sitio web-->
 <body>
-           <!--HEADER-->
-    <header class="menu-container">
-
-       
-            
-            <nav >
-                <a href=""><img src="./imagenes/iconos/LOGO-HF.ico" alt="LOGO-HF"></a>
-                <h1>
+  <header class="container-header">
+    
+   
+             <div class=" d-flex bg-primary row">
+                <a href="index.html" class="col-8 w-50">
+                    <img src="../imagenes/iconos/LOGO-HF (1).ico" alt="LOGO-HF">
+                </a>
+        
+                <h1 class="mt-5 mr-5 col ">
                     REPUESTOS DEL AUTOMOTOR
                 </h1>
-                 
-                <ul class="menu">
-                    <li> 
-                        <a href="index.html">INICIO</a>
+    
+             </div>
+
+     <nav class="navbar navbar-expand-lg bg-light">      
+            <div class="container-fluid  ">
+                
+              <a class="navbar-brand" href="index.html">INICIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="page" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="sucursales.html">SUCURSALES</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="productos.html" >
+                      PRODUCTOS
+                    </a>
+
                     </li>
-                    <li>
-                         <a href="nosotros.html">NOSOTROS</a>
+                     <li class="nav-item">
+                        <a  class="nav-link "aria-current="page" href="#contacto">CONTACTO
+
+                        </a>
                     </li>
-                    <li> 
-                        <a href="sucursales.html">SUCURSALES</a>
-                    <li>
-                    <li>
-                         <a href="productos.html">PRODUCTOS</a>
-                    </li>
-                    <li> 
-                        <a href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
+                    </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+                  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
-                <a href="">Ingresar</a>
+    
 
-
-               
-
-            </nav>
-
-
-
-    </header>
-
+  </header>
      <!--FIN HEADER-->
 
     <main>
 
-        <section>
-
-            <nav>
+        <section class="container">
+            <div class="row">
+            
                 <h1 class="menu-sucursales">
                     <p>
                         Encuentra aqui tu sucursal mas cercana.
                     </p>
                 </h1>
+            </div>
     
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.9993880541947!2d-58.68460898565788!3d-34.553570880472485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbdcb13f72699%3A0x6454f8decbb2bc3e!2sSourdeaux%20563%2C%20Bella%20Vista%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652894652993!5m2!1ses-419!2sar" width="450" height="330" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="row">
+                <iframe class="col" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.9993880541947!2d-58.68460898565788!3d-34.553570880472485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbdcb13f72699%3A0x6454f8decbb2bc3e!2sSourdeaux%20563%2C%20Bella%20Vista%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652894652993!5m2!1ses-419!2sar" width="450" height="330" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.811548047212!2d-58.63690688565587!3d-34.60892658045815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb928739688a7%3A0xe6a9271668be020e!2sHF%20Repuestos!5e0!3m2!1ses-419!2sar!4v1652894740989!5m2!1ses-419!2sar" width="450" height="330" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="col " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.811548047212!2d-58.63690688565587!3d-34.60892658045815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb928739688a7%3A0xe6a9271668be020e!2sHF%20Repuestos!5e0!3m2!1ses-419!2sar!4v1652894740989!5m2!1ses-419!2sar" width="450" height="330" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
     
                     
-                </div>
-            </nav>
+            </div>
+            
 
 
 
         </section>
 
-    </main>  
+ </main> 
+     <!--FOOTER--> 
+ 
+     
+   <footer id="contacto" class="container-footer bg-dark">
+    <div class="card" style="width: 16rem;">
+      <img src="../imagenes/iconos/LOGO-HF.ico" class="card-img-top" alt="logo footer hf">
+      <div class="card-body">
+        <h5 class="card-title">contacto (011-4666-3940) </h5>
+        <div class="">
+
+
+          <button class="" > 
+              <a href="https://www.facebook.com/search/pages/?q=hf%20repuestos">
+
+                <img src="../imagenes/iconos/fb (1).ico" alt="icono fb" width="40" height="40" >
+          
+              </a>
+          </button>
+       
+          <button class="">
+              <a href="https://www.instagram.com/hf_respuestos/">
+
+                  <img src="../imagenes/iconos/ig.jpg" alt="icono de ig" width="40" height="40" >
+              </a>
+
+
+          </button>
+          
+          <button class="">
+              <a href="https://web.whatsapp.com/">
+              
+                  <img src="/imagenes/iconos/wsp.png" alt="icono de wsp" width="40" height="40" >
+                  
+              </a>  
+
+          </button>
+      
+      <div class="mt-3">
+        <a href="https://web.whatsapp.com/" class="btn btn-primary">Enviar mail</a>
+      </div>
+    </div>
+   </footer>
+   
+   <!--FIN FOOTER-->
+
+   <!--LINK SCRIPT-->
+   
+   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+ 
+  
+        
+    </body> 
+</html>
 
     
