@@ -1,0 +1,72 @@
+.diez:hover {
+    transform: scale(2);
+    transition: all 2s;
+    border-radius: 6px;  
+ 
+ }
+ 
+.veinte:hover {
+     transform: scale(2);
+     transition: all 2s;
+     border-radius: 6px;  
+  
+  }
+ 
+.treinta:hover {
+     transform: scale(2);
+     transition: all 2s;
+     border-radius: 6px;  
+  
+  }
+ 
+  .imagenes-descuentos {
+   
+    display: flex;
+    justify-content: space-around;
+     
+    
+ }
+ 
+ .descuentos {
+     width: 10%;
+     background-color: white;
+    
+ }
+
+
+ .seccion-darkblue {
+         
+    background-color: rgb(5, 5, 36);
+    color: antiquewhite;
+    padding: 9%;
+    border: solid 15px black;
+    margin: 13%; 
+ 
+}
+
+ 
+ .sabias-q {
+    background-color: gray;
+    margin-bottom: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px white;
+
+
+}
+
+.parrafo-sabias {
+    background-color: gray;
+    margin-bottom: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: solid 2px white;
+    
+   
+}
